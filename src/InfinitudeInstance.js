@@ -13,7 +13,7 @@ module.exports = class InfinitudeInstance {
     log.verbose(`Creating instance ${id}...`);
 
     Thermostat = api.hap.Service.Thermostat;
-    AccessoryCategories = api.hap.Accessory.Categories;
+    AccessoryCategories = api.hap.Categories;
     AccessoryInformation = api.hap.Service.AccessoryInformation;
     TemperatureSensor = api.hap.Service.TemperatureSensor;
     Fanv2 = api.hap.Service.Fanv2;
