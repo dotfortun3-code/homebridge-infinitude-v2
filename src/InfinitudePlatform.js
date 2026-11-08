@@ -12,7 +12,7 @@ module.exports = class InfinitudePlatform {
   constructor(log, config, api) {
 
 
-    AccessoryCategories = api.hap.Accessory.Categories;
+    AccessoryCategories = api.hap.Categories;
 
     this.api = api;
     this.config = config;
